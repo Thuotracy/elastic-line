@@ -11,3 +11,14 @@ body{
     min-height: 100vh;
     background: black;
 }
+
+.elastic{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
