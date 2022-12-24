@@ -35,7 +35,7 @@ body{
     stroke-width: 10;
     stroke-linecap: round;
     d: path("M 10 80 Q 190 80 390 80");
-    animation: animate 2.5s linear infinite;
+    animation: animate 2.5s linear infinite, animateColor 2s linear infinite;
 }
 
 @keyframes animate{
@@ -46,4 +46,46 @@ body{
    10%{
     d: path("M 10 80 Q 190 160 390 80");
    }
+
+   20%{
+    d: path("M 10 80 Q 190 20 390 80");
+   }
+
+   30%{
+    d: path("M 10 80 Q 190 120 390 80");
+   }
+
+   35%{
+    d: path("M 10 80 Q 190 100 390 80");
+   }
+
+   40%{
+    d: path("M 10 80 Q 190 80 390 80");
+   }
+
+   50%{
+    d: path("M 10 80 Q 190 100 390 80");
+   }
+
+   55%{
+    d: path("M 10 80 Q 190 90 390 80");
+   }
+
+   60%{
+    d: path("M 10 80 Q 190 80 390 80");
+   }
+}
+
+@keyframes animateColor{
+    0%,100%{
+        stroke: blue;
+    }
+
+    33.33%{
+        stroke: #0f0;
+    }
+
+    66.66%{
+        stroke: #ff0992;
+    }
 }
