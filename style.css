@@ -27,3 +27,11 @@ body{
     width: 400px;
     height: 150px;
 }
+
+.elastic svg path{
+    width: 100%;
+    stroke: rgb(1, 1, 253);
+    stroke-width: 10;
+    stroke-linecap: round;
+    d: path("M 10 80 Q 190 80 390 80")
+}
