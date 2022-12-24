@@ -23,10 +23,38 @@ body{
     fill: none;
 }
 
+.elastic::before{
+    content: '';
+    position: absolute;
+    bottom: 62.5px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.elastic::after{
+    content: '';
+    position: absolute;
+    bottom: 62.5px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    z-index: 1;
+}
+
 .elastic svg{
     position: absolute;
     width: 400px;
     height: 150px;
+}
+
+.elastic svg:nth-child(2){
+    filter: blur(25px);
 }
 
 .elastic svg path{
