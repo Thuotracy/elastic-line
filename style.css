@@ -16,7 +16,6 @@ body{
     position: relative;
     width: 400px;
     height: 400px;
-    background: #222;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -115,5 +114,29 @@ body{
 
     66.66%{
         stroke: #ff0992;
+    }
+}
+
+.ball{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: inset 0 -15px 20px rgba(0,0,0,0.5);
+    animation: animateBall 2.5s linear infinite;
+}
+
+@keyframes animateBall{
+    0%,100%{
+        transform: translateY(-72.5px);
+    }
+
+    10%{
+        transform: translateY(-40px);
+    }
+
+    50%{
+        transform: translateY(-350px);
     }
 }
