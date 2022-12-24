@@ -33,5 +33,16 @@ body{
     stroke: rgb(1, 1, 253);
     stroke-width: 10;
     stroke-linecap: round;
-    d: path("M 10 80 Q 190 80 390 80")
+    d: path("M 10 80 Q 190 80 390 80");
+    animation: animate 2.5s linear infinite;
+}
+
+@keyframes animate{
+   0%{
+    d: path("M 10 80 Q 190 80 390 80");
+   }
+   
+   10%{
+    d: path("M 10 80 Q 190 160 390 80");
+   }
 }
