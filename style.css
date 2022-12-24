@@ -132,7 +132,7 @@ body{
         transform: translateY(-72.5px);
     }
 
-    10%{
+    10%,11.5%{
         transform: translateY(-40px);
     }
 
