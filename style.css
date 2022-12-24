@@ -20,6 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    fill: none;
 }
 
 .elastic svg{
