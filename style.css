@@ -20,5 +20,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
 
+.elastic svg{
+    position: absolute;
+    width: 400px;
+    height: 150px;
 }
