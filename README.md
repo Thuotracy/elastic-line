@@ -2,7 +2,7 @@
 
 
 
-#### By ** Tracy Wangari**
+
 
 ## Description
 An Elastic Line Animation Effect
