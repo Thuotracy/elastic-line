@@ -1,6 +1,6 @@
 # ELASTIC LINE
 
-#### Elastic Line, 24 December 2022
+
 
 #### By ** Tracy Wangari**
 
