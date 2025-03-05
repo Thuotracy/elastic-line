@@ -1,6 +1,5 @@
 # ELASTIC LINE
 
-
 ## Description
 An Elastic Line Animation Effect
 
