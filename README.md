@@ -3,7 +3,6 @@
 
 
 
-
 ## Description
 An Elastic Line Animation Effect
 
