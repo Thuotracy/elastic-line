@@ -13,7 +13,3 @@ CSS
 ## Support and contact details
 Incase you run into any issues kindly contact me on this Email tracyjacobs775@gmail.com.
 
-### License
-*See below for more details on licensing.*
-This is under the [MIT](LICENSE) license
-Copyright (c) {2022} **{Tracy Wangari}**
